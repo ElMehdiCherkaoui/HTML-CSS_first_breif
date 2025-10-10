@@ -1,7 +1,7 @@
 #  Title:
  Bienvenue à NLCLINIQUE
 
-# Text:
+## Text:
 NLCLINIQUE est un centre médical moderne dédié à offrir des soins de qualité à toute la communauté.
 Notre mission est de vous accompagner et de vous soigner avec professionnalisme et bienveillance.
 
