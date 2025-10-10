@@ -937,7 +937,7 @@ a:hover {
   position: relative;
 }
 .footer-default .footer-main-content {
-  background-color: #2d3840;
+  background-color: #183817;
   padding: 80px 0;
 }
 @media screen and (max-width: 991px) {
@@ -1182,7 +1182,7 @@ a:hover {
 }
 .footer-default .copyright-area {
   background-image: -webkit-gradient(
-      linear, 
+      linear,
       left top,
       right top,
       from(#3fda42),
@@ -9069,11 +9069,22 @@ a:hover {
   background: white;
   padding: 50px;
   border-radius: 8px;
+  position: relative;
+  animation: moveRight 3s;
+}
+
+@keyframes moveRight {
+  -100% {
+    transform: translateX(0);
+  }
+  0% {
+    transform: translateX(300px);
+  }
 }
 .center-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #d7d7d7;
-  padding: 40px; 
+  padding: 40px;
 }
